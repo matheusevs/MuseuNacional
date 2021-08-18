@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Exposições - Museu Nacional</title>
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+
+        <!-- Estilo customizado -->
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+        <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+	</head>
+
+    <body>
+
+        <div id="container"><!--Início container-->
+
+            <header><!--Início header-->
+                <div id="logo">
+                    <h1><a href="">Musel Nacional</a></h1>    
+                </div>  
+
+                <nav><!--Início nav-->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="exposicoes.html">Exposições</a></li>
+                        <li><a href="pesquisa.html">Pesquisa</a></li>
+                        <li><a href="acervo.html">Acervo</a></li>
+                        <li><a href="videos.html">Vídeos</a></li>
+                        <li><a href="fotos.html">Fotos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!--Fim nav-->
+            </header><!--Fim header-->
+
+            <div id="principal"><!--Início principal-->
+                <div id="conteudo">
+                    <section id="capa">
+                        <a href="index.html"><img src="img/museu.png"></a>
+                    </section>
+
+                    <section id=info>
+                        <h1>EXPOSIÇÕES</h1>
+
+                        <p>Nossas exposições no Palácio de São Cristóvão estão fechadas ao público por tempo indeterminado em virtude do incêndio que destruiu grande parte de nossas coleções. No entanto, atualmente contamos com três exibições temporárias:</p>
+
+                        <p>“Quando Nem Tudo Era Gelo – Novas Descobertas no Continente Antártico” narra a rotina e as descobertas de pesquisadores brasileiros na Antártida e ocorre no prédio que foi a primeira sede do Museu Nacional, hoje Museu Casa da Moeda do Brasil.</p>
+                            
+                        <p>Santo Antônio de Sá: Primeira Vila do Recôncavo da Guanabara reúne relíquias arqueológicas do Museu Nacional e ocorre na Caixa Cultural do Rio de Janeiro.v
+                            
+                        <p>Os Primeiros Brasileiros retrata diferentes olhares sobre os indígenas no Brasil e ocorre na sede do Arquivo Nacional, no Centro do Rio de Janeiro.</p>
+
+                        <p>O acervo Museu Nacional/UFRJ conta com mais de 20 milhões de itens e abrange áreas da ciência como Zoologia, Arqueologia, Etnologia, Geologia, Paleontologia e Antropologia Biológica. Desde sua fundação, em 1818, pelo rei Dom João VI, é também centro de pesquisa, vocação que se acentuou a partir de 1946, ao ser incorporado à Universidade do Brasil (atual UFRJ).</p>
+
+                        <p>As exposições do Museu Nacional estão organizadas em seções: Evolução da Vida (a história da Terra e dos primeiros seres que a povoaram), Nos Passos da Humanidade (a evolução do Homem), Culturas Mediterrâneas (arte e artefatos greco-romanos), Egito Antigo, Arqueologia Pré-colombiana (arte e artefatos dos povos que habitavam as Américas), Arqueologia Brasileira (onde se destaca Luzia, o esqueleto mais antigo das Américas), Etnologia Indígena Brasileira (a diversidade, a arte e o engenho dos índios brasileiros) e Culturas do Pacífico, além das diversas seções dedicadas à Zoologia.</p>
+                    </section>
+                </div>
+
+                <aside><!--Início aside-->
+
+                    <section id="depoimento">
+                        <img src="img/depoimento.png">
+                    </section>
+
+                    <section id="visita"><!--Início visita-->
+                        <h4>Faça uma visita</h4>
+
+                        <form action="">
+                            <fieldset>
+                                <legend>Selecione uma data</legend>
+
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd pessoas</label>
+                                <input class="campo" style="width: 30px;" type="number" id="qtd" value="1">
+                            </fieldset>
+
+                            <input class="botao" type="submit" value="Verificar disponibilidade">
+                        </form>
+                    </section><!--Fim visita-->
+
+                    <section id="galeria">
+                        <h4>Galeria de fotos</h4>
+
+                        <a href="">
+                            <img src="img/imagem1.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem2.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem3.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem4.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+                    </section>
+
+                </aside><!--Fim aside-->
+                <footer>
+                    <p>
+                        <a href="index.html">Home</a>
+                        <a href="exposicoes.html">Exposições</a>
+                        <a href="pesquisa.html">Pesquisa</a>
+                        <a href="acervo.html">Acervo</a>
+                        <a href="videos.html">Vídeos</a>
+                        <a href="fotos.html">Fotos</a>
+                        <a href="contato.html">Contato</a>
+                    </p>
+
+                    <p>
+                        2021 <a href="index.html">Museu Nacional</a> - &copy Todos os direitos reservados.
+                    </p>
+                </footer> <!--Impede que elementos flutuem de ambos os lados.-->
+            </div><!--Fim principal-->
+        </div><!--Fim container-->
+	</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pesquisa - Museu Nacional</title>
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+
+        <!-- Estilo customizado -->
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+        <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+	</head>
+
+    <body>
+
+        <div id="container"><!--Início container-->
+
+            <header><!--Início header-->
+                <div id="logo">
+                    <h1><a href="">Musel Nacional</a></h1>    
+                </div>  
+
+                <nav><!--Início nav-->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="exposicoes.html">Exposições</a></li>
+                        <li><a href="pesquisa.html">Pesquisa</a></li>
+                        <li><a href="acervo.html">Acervo</a></li>
+                        <li><a href="videos.html">Vídeos</a></li>
+                        <li><a href="fotos.html">Fotos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!--Fim nav-->
+            </header><!--Fim header-->
+
+            <div id="principal"><!--Início principal-->
+                <div id="conteudo">
+                    <section id="capa">
+                        <a href="index.html"><img src="img/museu.png"></a>
+                    </section>
+
+                    <section id=info>
+                        <h1>pesquisa</h1>
+
+                        <p>As atividades de pesquisa científica são desenvolvidas pelos Departamentos de Antropologia, Botânica, Entomologia, Geologia e Paleontologia, Vertebrados e Invertebrados, que dispõem de coleções que representam a base para os estudos das diferentes especialidades. Reconhecido internacionalmente como núcleo de excelência em pesquisa, o Museu Nacional mantém parcerias com os principais centros nacionais e internacionais de ciências naturais e antropológicas. A instituição desenvolve inúmeros projetos em diversas linhas de pesquisa, contando com o financiamento das principais instituições de fomento do país.</p>
+
+                        <p>Como atividade diretamente relacionada à pesquisa científica, a realização de expedições é tarefa freqüente dos pesquisadores de todos os departamentos do Museu. Nesse sentido, cabe destacar a diversidade dessas viagens, tanto nos vários campos de atividade quanto na sua abrangência geográfica. Como instituição de caráter nacional, o Museu realiza atividades em todo o território brasileiro, além de desenvolver pesquisas conjuntas com pesquisadores estrangeiros em diversas localidades do planeta, incluindo o continente antártico.</p>
+                    </section>
+                </div>
+
+                <aside><!--Início aside-->
+
+                    <section id="depoimento">
+                        <img src="img/depoimento.png">
+                    </section>
+
+                    <section id="visita"><!--Início visita-->
+                        <h4>Faça uma visita</h4>
+
+                        <form action="">
+                            <fieldset>
+                                <legend>Selecione uma data</legend>
+
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd pessoas</label>
+                                <input class="campo" style="width: 30px;" type="number" id="qtd" value="1">
+                            </fieldset>
+
+                            <input class="botao" type="submit" value="Verificar disponibilidade">
+                        </form>
+                    </section><!--Fim visita-->
+
+                    <section id="galeria">
+                        <h4>Galeria de fotos</h4>
+
+                        <a href="">
+                            <img src="img/imagem1.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem2.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem3.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem4.jpg" alt="Descricao Imagem" height="93px" width="93px">
+                        </a>
+                    </section>
+
+                </aside><!--Fim aside-->
+                <footer>
+                    <p>
+                        <a href="index.html">Home</a>
+                        <a href="exposicoes.html">Exposições</a>
+                        <a href="pesquisa.html">Pesquisa</a>
+                        <a href="acervo.html">Acervo</a>
+                        <a href="videos.html">Vídeos</a>
+                        <a href="fotos.html">Fotos</a>
+                        <a href="contato.html">Contato</a>
+                    </p>
+
+                    <p>
+                        2021 <a href="index.html">Museu Nacional</a> - &copy Todos os direitos reservados.
+                    </p>
+                </footer> <!--Impede que elementos flutuem de ambos os lados.-->
+            </div><!--Fim principal-->
+        </div><!--Fim container-->
+	</body>
+</html>
